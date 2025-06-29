@@ -2,22 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning Now</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>Learning Now</h1>
-    <p class="subtitle">All links below are currently in testing:</p>
-    <div class="link-box">
-      <a href="https://brainbreaker.learningnow.com.au/" target="_blank">BrainBreaker</a>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="logo">Learning Now</h1>
+      <p class="tagline">Educational Tools & Resources</p>
     </div>
-    <div class="link-box">
-      <a href="https://classtimer.learningnow.com.au/" target="_blank">ClassTimer</a>
-    </div>
-    <div class="link-box">
-      <a href="https://seatingplanner.learningnow.com.au/" target="_blank">SeatingPlanner</a>
-    </div>
-  </div>
+  </header>
+
+  <main>
+    <section class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-subtitle">A collection of educational tools and experiments</p>
+        
+        <div class="project-grid">
+          <article class="project-card completed">
+            <div class="status-badge">Completed</div>
+            <h3>ClassTimer</h3>
+            <p>Visual classroom timer for better time management</p>
+            <a href="https://classtimer.learningnow.com.au/" target="_blank" class="project-link">
+              Visit Project →
+            </a>
+          </article>
+
+          <article class="project-card completed">
+            <div class="status-badge">Completed</div>
+            <h3>BrainBreaker</h3>
+            <p>Quick activities for mental breaks and refocusing</p>
+            <a href="https://brainbreaker.learningnow.com.au/" target="_blank" class="project-link">
+              Visit Project →
+            </a>
+          </article>
+
+          <article class="project-card draft">
+            <div class="status-badge">Draft</div>
+            <h3>SeatingPlanner</h3>
+            <p>Smart seating arrangement tool for classrooms</p>
+            <a href="https://seatingplanner.learningnow.com.au/" target="_blank" class="project-link">
+              Visit Project →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p class="about-text">
+          Learning Now is a collection of educational tools and experiments. 
+          Each project explores different ways technology can support learning and teaching.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Learning Now</p>
+  </footer>
 </body>
 </html>
