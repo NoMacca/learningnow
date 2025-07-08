@@ -164,6 +164,11 @@ body {
   color: #f39c12;
 }
 
+.tbc .status-badge {
+  background-color: #ffe5e5;
+  color: #e74c3c;
+}
+
 .project-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
