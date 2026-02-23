@@ -159,6 +159,11 @@ body {
   color: #27ae60;
 }
 
+.retiring .status-badge {
+  background-color: #f0ede8;
+  color: #8a7560;
+}
+
 .draft .status-badge {
   background-color: #fff4e5;
   color: #f39c12;
