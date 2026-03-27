@@ -48,14 +48,13 @@ body {
   margin: 0 auto;
 }
 
-.logo {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  font-style: italic;
-  letter-spacing: 1px;
+.logo-img {
+  height: 80px;
+  width: auto;
   margin-bottom: 12px;
-  color: #faf3e6;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tagline {
