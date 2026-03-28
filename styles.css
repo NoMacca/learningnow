@@ -9,8 +9,8 @@
 body {
   font-family: 'Lora', Georgia, serif;
   line-height: 1.7;
-  color: #3f3d3a;
-  background-color: #faf3e6;
+  color: #2d2b5c;
+  background-color: #f4f3fb;
   overflow-x: hidden;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .hero {
   background-color: #373390;
-  color: #faf3e6;
+  color: #fff;
   padding: 80px 20px;
   text-align: center;
   position: relative;
@@ -35,7 +35,7 @@ body {
   width: 80%;
   max-width: 700px;
   height: 1px;
-  background-color: rgba(250, 243, 230, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .hero::before { top: 24px; }
@@ -78,7 +78,7 @@ body {
 
 .projects {
   padding: 80px 0;
-  background-color: #faf3e6;
+  background-color: #f4f3fb;
 }
 
 .projects h2 {
@@ -86,13 +86,13 @@ body {
   font-size: 2.25rem;
   font-weight: 700;
   text-align: center;
-  color: #272625;
+  color: #373390;
   margin-bottom: 10px;
 }
 
 .section-subtitle {
   text-align: center;
-  color: #7a7570;
+  color: #6b69a0;
   font-size: 0.9rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -117,7 +117,7 @@ body {
 .project-grid + .project-grid {
   margin-top: 48px;
   padding-top: 48px;
-  border-top: 1px solid #d9cfc0;
+  border-top: 1px solid #dddcf0;
 }
 
 .project-card.featured {
@@ -127,9 +127,9 @@ body {
 /* ─── Project Cards ─────────────────────────────────── */
 
 .project-card {
-  background-color: #fff9f0;
-  border: 1px solid #d9cfc0;
-  border-top: 3px solid #d9cfc0;
+  background-color: #ffffff;
+  border: 1px solid #dddcf0;
+  border-top: 3px solid #dddcf0;
   padding: 32px 28px;
   position: relative;
   transition: border-top-color 0.25s ease, box-shadow 0.25s ease;
@@ -137,7 +137,7 @@ body {
 
 .project-card:hover {
   border-top-color: #8dc63f;
-  box-shadow: 4px 4px 0 #e5e0d5;
+  box-shadow: 4px 4px 0 #dddcf0;
 }
 
 .status-badge {
@@ -153,40 +153,40 @@ body {
 }
 
 .completed .status-badge {
-  color: #4a7c68;
-  border-color: #bad1c2;
-  background-color: #edf4f0;
+  color: #3d7a3d;
+  border-color: #a8d5a8;
+  background-color: #edf7ed;
 }
 
 .retiring .status-badge {
-  color: #7a6040;
-  border-color: #c8b090;
-  background-color: #f5eede;
+  color: #666680;
+  border-color: #c5c5d8;
+  background-color: #f2f2f7;
 }
 
 .draft .status-badge {
-  color: #9a6b18;
-  border-color: #ffb14d;
-  background-color: #fff6e6;
+  color: #5450a0;
+  border-color: #c5c3e8;
+  background-color: #eeecfb;
 }
 
 .tbc .status-badge {
-  color: #b03020;
-  border-color: #e5452c;
-  background-color: #fdf0ee;
+  color: #666680;
+  border-color: #c5c5d8;
+  background-color: #f2f2f7;
 }
 
 .project-card h3 {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.45rem;
   font-weight: 700;
-  color: #272625;
+  color: #373390;
   margin-bottom: 10px;
 }
 
 .project-card p {
   font-size: 0.95rem;
-  color: #5a5651;
+  color: #4a4870;
   margin-bottom: 24px;
   line-height: 1.75;
 }
@@ -213,9 +213,9 @@ body {
 
 .about {
   padding: 80px 0;
-  background-color: #f2e8d5;
-  border-top: 1px solid #d9cfc0;
-  border-bottom: 1px solid #d9cfc0;
+  background-color: #eeedf8;
+  border-top: 1px solid #dddcf0;
+  border-bottom: 1px solid #dddcf0;
 }
 
 .about h2 {
@@ -223,7 +223,7 @@ body {
   font-size: 2.25rem;
   font-weight: 700;
   text-align: center;
-  color: #272625;
+  color: #373390;
   margin-bottom: 30px;
 }
 
@@ -232,15 +232,15 @@ body {
   margin: 0 auto;
   text-align: center;
   font-size: 1.05rem;
-  color: #4a4744;
+  color: #2d2b5c;
   line-height: 1.9;
 }
 
 /* ─── Footer ─────────────────────────────────────────── */
 
 footer {
-  background-color: #272625;
-  color: #faf3e6;
+  background-color: #373390;
+  color: #fff;
   text-align: center;
   padding: 36px 20px;
   border-top: 4px solid #8dc63f;
@@ -257,17 +257,13 @@ footer p {
   font-size: 0.8rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #a09890;
+  color: rgba(255, 255, 255, 0.55);
   margin: 0;
 }
 
 /* ─── Responsive ─────────────────────────────────────── */
 
 @media (max-width: 768px) {
-  .logo {
-    font-size: 2.5rem;
-  }
-
   .hero {
     padding: 60px 20px;
   }
@@ -293,10 +289,6 @@ footer p {
 }
 
 @media (max-width: 480px) {
-  .logo {
-    font-size: 2rem;
-  }
-
   .tagline {
     font-size: 0.8rem;
   }
